@@ -29,6 +29,200 @@ body {
     
 }
 
+.subtitle section {
+    display: flex;
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    color: var(--yellow);
+    top: 200px;
+    background-color: var(--headerColor);
+    /* right: 50px; */
+    padding: 4px 10px 4px 10px;
+    border-radius: 10px;
+    border: 3px solid var(--yellow);
+    left: auto;
+    right: 100px;
+}
+
+.subtitle img{
+    width: 100%;
+}
+
+.subtitle {
+    position: relative;
+}
+
+.project-1 img{
+    margin-top: 25px;
+    width: 100%;
+    height: 200px;
+    border: 5px solid var(--yellow);
+    opacity: 70%;
+    object-fit: cover;
+}
+
+.project-1 {
+    position: relative;
+}
+.project-1 div{
+    position: absolute;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: var(--yellow);
+    color: var(--headerColor);
+    top: 140px;
+    left: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.project-1 img:hover {
+    margin-top: 25px;
+    width: 100%;
+    height: 200px;
+    border: 5px solid var(--yellow);
+    opacity: 100%;
+}
+
+.project-2 {
+    position: relative;
+}
+ .project-2 div {
+    position: absolute;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: var(--yellow);
+    color: var(--headerColor);
+    top: 140px;
+    left: 10px;
+    padding: 20px;
+    border-radius: 10px;
+} 
+
+.project-2 img{
+    margin-top: 25px;
+    /* margin-left: 47px; */
+    width: 100%;
+    height: 200px;
+    border: 5px solid var(--yellow);
+    opacity: 70%;
+    object-fit: cover;
+}
+
+.project-2 img:hover {
+    margin-top: 25px;
+    /* margin-left: 47px; */
+    width: 100%;
+    height: 200px;
+    border: 5px solid var(--yellow);
+    opacity: 100%;
+}
+
+.project-3 {
+    position: relative;
+}
+
+.project-3 div {
+    position: absolute;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: var(--yellow);
+    color: var(--headerColor);
+    top: 140px;
+    left: 10px;
+    padding: 20px;
+    border-radius: 10px;
+} 
+
+.project-3 img{
+    margin-top: 25px;
+    width: 100%;
+    height: 200px;
+    border: 5px solid var(--yellow);
+    opacity: 70%;
+    object-fit: cover;
+}
+
+.project-3 img:hover {
+    margin-top: 25px;
+    width: 100%;
+    height: 200px;
+    border: 5px solid var(--yellow);
+    opacity: 100%;
+}
+
+.project-4 {
+    position: relative;
+}
+
+.project-4 div {
+    position: absolute;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: var(--yellow);
+    color: var(--headerColor);
+    top: 140px;
+    left: 10px;
+    padding: 20px;
+    border-radius: 10px;
+} 
+
+.project-4 img{
+    margin-top: 25px;
+    width: 100%;
+    height: 200px;
+    border: 5px solid var(--yellow);
+    opacity: 70%;
+    object-fit: cover;
+}
+
+.project-4 img:hover {
+    margin-top: 25px;
+    width: 100%;
+    height: 200px;
+    border: 5px solid var(--yellow);
+    opacity: 100%;
+}
+
+.project-4 {
+    position: relative;
+}
+
+.project-5 div {
+    position: absolute;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: var(--yellow);
+    color: var(--headerColor);
+    top: 140px;
+    left: 10px;
+    padding: 20px;
+    border-radius: 10px;
+} 
+
+.project-5 img{
+    margin-top: 25px;
+    width: 100%;
+    height: 200px;
+    border: 5px solid var(--yellow);
+    opacity: 70%;
+    object-fit: cover;
+}
+
+.project-5 img:hover {
+    margin-top: 25px;
+    width: 100%;
+    height: 200px;
+    border: 5px solid var(--yellow);
+    opacity: 100%;
+}
+
+.project-5 {
+    position: relative;
+}
+
+
 .btn {
     display: inline-block;
     position: relative;
@@ -44,54 +238,20 @@ body {
     position: absolute;
     width: 100%;
     height: 1.5px;
-    background: var(--headerColor);
+    background: rgb(152, 152, 152);
     left: 0;
     bottom: 0;
     transform: scale(0, 1);
-    transition: transform 0.3s ease;
+    transition: transform 0.4s ease;
 }
 
 .btn:hover::after {
     transform: scale(1, 2);
 }
 
-a {
-    color: var(--headerColor);
+.header section a {
+    color: rgb(152, 152, 152);
     text-decoration: none;
-}
-
-/* .header section button {
-    display: inline-block;
-    border-bottom-width: 5px;
-    border-bottom: 4px solid var(--headerColor);
-    bottom: 2 px;
-    background: none;
-    border-top: none;
-    border-right: none;
-    border-left: none;
-    font-size: 25px;
-}
-.header section button a:hover {
-     color: #000000;
-} */
-
-
-
-.subtitle img{
-    width: 100%;
-}
-
-.bottom-right {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 45px;
-    color: var(--yellow);
-    position: absolute; 
-    top: 35%;
-    background-color: var(--headerColor);
-    right: 5%;
-    padding: 4px 10px 4px 10px;
-    border-radius: 10px;
-    border: 3px solid var(--yellow);
 }
 
 .about-me h1{
@@ -129,121 +289,118 @@ a {
     padding-bottom: 10px;
 }
 
-.project-1 img{
-    margin-top: 25px;
-    margin-left: 47px;
-    width: 89%;
-    height: 200px;
-    border: 5px solid var(--yellow);
-    opacity: 30%;
-}
 
-.project-1 div{
-    position: absolute;
-    font-size: 30px;
+
+.contact-me h1{
+    margin-bottom: 50px;
+    display: flex;
+    margin-left: 45px;
+    margin-right: 50px;
+    font-size: 50px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: var(--yellow);
     color: var(--headerColor);
-    top: 1025px;
-    left: 60px;
-    padding: 20px;
-    border-radius: 10px;
+    margin-top: 30px;
+    border-bottom: 5px solid var(--headerColor);
+    padding-bottom: 10px;
+}
+.contacts-btn {
+    font-weight: bold;
+    margin-left: 45px;
+    margin-top: 15px;
+    display: block;
+    position: relative;
+    background: none;
+    font-size: 25px;
+    padding: 5px;
+    border: none;
+    outline: none;
 }
 
-.project-1 img:hover {
-    margin-top: 25px;
-    margin-left: 47px;
-    width: 89%;
-    height: 200px;
-    border: 5px solid var(--yellow);
-    opacity: 100%;
-}
- .project-2 div {
+.contacts-btn::after {
+    content: '';
     position: absolute;
-    font-size: 30px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: var(--yellow);
-    color: var(--headerColor);
-    top: 1255px;
-    left: 60px;
-    padding: 20px;
-    border-radius: 10px;
-} 
-
-.project-2 img{
-    margin-top: 25px;
-    margin-left: 47px;
-    width: 89%;
-    height: 200px;
-    border: 5px solid var(--yellow);
-    opacity: 30%;
+    width: 100%;
+    height: 2px;
+    background: var(--headerColor);
+    left: 0;
+    bottom: 0;
+    transform: scale(0, 1);
+    transition: transform 0.4s ease;
 }
 
-.project-2 img:hover {
-    margin-top: 25px;
-    margin-left: 47px;
-    width: 89%;
-    height: 200px;
-    border: 5px solid var(--yellow);
-    opacity: 100%;
+.contacts-btn:hover::after {
+    transform: scale(1, 2);
 }
 
-.project-3 div {
-    position: absolute;
-    font-size: 30px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: var(--yellow);
-    color: var(--headerColor);
-    top: 1485px;
-    left: 60px;
-    padding: 20px;
-    border-radius: 10px;
-} 
-
-.project-3 img{
-    margin-top: 25px;
-    margin-left: 47px;
-    width: 89%;
-    height: 200px;
-    border: 5px solid var(--yellow);
-    opacity: 30%;
+.contact-me a {
+    color: black;
+    text-decoration: none;
 }
 
-.project-3 img:hover {
-    margin-top: 25px;
+.proj1 {
     margin-left: 47px;
-    width: 89%;
-    height: 200px;
-    border: 5px solid var(--yellow);
-    opacity: 100%;
+    margin-right: 47px;
+}    
+
+.table {
+    margin-left: 47px;
+    margin-right: 47px;
 }
 
-.project-4 div {
-    position: absolute;
-    font-size: 30px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: var(--yellow);
-    color: var(--headerColor);
-    top: 1715px;
-    left: 60px;
-    padding: 20px;
-    border-radius: 10px;
-} 
+@media (min-width: 769px) {
+    .header {
+        display: flex;
+        background-color: black;
+    }
 
-.project-4 img{
-    margin-top: 25px;
-    margin-left: 47px;
-    width: 89%;
-    height: 200px;
-    border: 5px solid var(--yellow);
-    opacity: 30%;
+    .header h1 {
+        font-size: 40px;
+        background-color: var(--headerColor);
+        padding-left: 45px;
+        padding-right: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .header section {
+        background-color: inherit;
+        display: flex;
+        justify-content: flex-end;
+        flex-grow: 1;
+        padding-right: 15px;
+    }
+
+    .subtitle section {
+        left: auto;
+        right: 100px;
+    }
+
+    .table {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        column-gap: 10px;
+    }
+
+    .project-1 div {
+        top: 340px;
+    }
+
+    .project-1 img {
+        height: 400px;
+    }
+
+    .project-1 img:hover {
+        height: 400px;
+    }
+    .header section button {
+        margin-right: 10px;
+    }
+
+    .contacts-btn {
+        display: inline-block;
+        margin-bottom: 15px;
+    }
+    
+
 }
 
-.project-4 img:hover {
-    margin-top: 25px;
-    margin-left: 47px;
-    width: 89%;
-    height: 200px;
-    border: 5px solid var(--yellow);
-    opacity: 100%;
-}
