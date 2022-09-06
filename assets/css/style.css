@@ -266,6 +266,12 @@ body {
     padding-bottom: 10px;
     
 }
+.about-me img {
+    float: left;
+    margin: 20px 5px 5px 45px;
+    width: 120px;
+    height: 150px;
+}
 
 .about-me p {
     font-size: 16px;
@@ -314,6 +320,7 @@ body {
     padding: 5px;
     border: none;
     outline: none;
+    margin-bottom: 15px;
 }
 
 .contacts-btn::after {
@@ -347,7 +354,21 @@ body {
     margin-right: 47px;
 }
 
-@media (min-width: 769px) {
+/* @media screen and (min-width: 481px ) {
+    .table {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        column-gap: 10px;
+    }
+} */
+    
+@media screen and (max-width: 480px ) {
+    .table {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 769px) {
     .header {
         display: flex;
         background-color: black;
@@ -358,8 +379,8 @@ body {
         background-color: var(--headerColor);
         padding-left: 45px;
         padding-right: 10px;
-        margin-top: 10px;
-        margin-bottom: 10px;
+        margin-top: 12px;
+        margin-bottom: 12px;
     }
 
     .header section {
@@ -375,11 +396,11 @@ body {
         right: 100px;
     }
 
-    .table {
+    /* .table {
         display: grid;
         grid-template-columns: 50% 50%;
         column-gap: 10px;
-    }
+    } */
 
     .project-1 div {
         top: 340px;
@@ -400,7 +421,16 @@ body {
         display: inline-block;
         margin-bottom: 15px;
     }
-    
 
+    .contact-me h1 {
+        margin-bottom: 5px;
+    }
 }
 
+/* @media (min-width: 481px) {
+    .table {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        column-gap: 10px;
+    }
+} */
