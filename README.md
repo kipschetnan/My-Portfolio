@@ -1,4 +1,4 @@
-# Week 1 Challenge
+# My Portfolio
 
 ## Description
 
@@ -25,5 +25,8 @@ Screenshot of the my "work" page ⬇️
 
 
 ## Link To Final Product
+
+https://kipschetnan.github.io/Portfolio/
+
 
 
